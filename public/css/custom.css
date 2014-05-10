@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Exo+2);
 @import url(http://fonts.googleapis.com/css?family=Londrina+Solid);
 
 html {
@@ -7,28 +6,45 @@ html {
   min-height: 100%;
 }
 
+h1, h2, h3, p{
+  color: white;
+}
+
 h1 {
   font-family: 'Londrina Solid', sans-serif;
+  font-size: 100px !important;
 }
 
 
 h2 {
   font-family: 'Londrina Solid', sans-serif;
+  font-size: 50px;
 }
 
 h3 {
-  font-family: 'Open Sans', san-sarif;
-  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
   line-height: 1;
   text-transform: uppercase;
+  padding-top: 20px;
 }
 
 p {
-  font-family: 'Open Sans', san-sarif;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  color: white;
 }
 
 .main-content {
+  background: rgba(0,0,0,0.6);
+  outline: white solid thick;
+  padding: 40px;
+}
+
+.main-heading {
   padding-bottom: 40px;
   line-height: 1;
 }
@@ -41,6 +57,7 @@ text-decoration:none;
 body {
   padding-top: 40px;
   padding-bottom: 40px;
+  /*background-image: url(/images/orlandosunset.jpg)*/
 }
 
 /* Custom container */
@@ -79,12 +96,29 @@ body {
   margin: 0 auto;
 }
 
-.email {
-  font-size: 1.33em;
-  border: none;
+#mce-EMAIL {
   text-transform: uppercase;
-  height: 100px;
-  background-color: transparent;
   text-align: center;
-  color: #e5e5e5;
+  font-size: 20px;
+  color: white;
+
+  height: 40px;
+  background-color: transparent;
+
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
 }
