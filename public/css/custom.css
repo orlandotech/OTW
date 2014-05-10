@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
+@import url(http://fonts.googleapis.com/css?family=Londrina+Solid);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+
+h2 {
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+h3 {
+  font-family: 'Open Sans', san-sarif;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', san-sarif;
+  font-size: 16px;
+}
+
+.main-content {
+  padding-bottom: 40px;
+  line-height: 1;
+}
+
+a:link {
+text-decoration:none;
+}
+
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-size: 72px;
+  line-height: 1;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 60px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.main-email {
+  max-width: 500%;
+  margin: 0 auto;
+}
+
+.email {
+  font-size: 1.33em;
+  border: none;
+  text-transform: uppercase;
+  height: 100px;
+  background-color: transparent;
+  text-align: center;
+  color: #e5e5e5;
+}
