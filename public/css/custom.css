@@ -103,9 +103,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 15px;
-  color: white;
+  /*color: white;*/
   height: 40px;
-  background-color: transparent;
+  /*background-color: transparent;*/
 }
 
 ::-webkit-input-placeholder {
