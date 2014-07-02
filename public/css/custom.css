@@ -6,6 +6,9 @@ html {
   min-height: 100%;
 }
 
+
+
+
 h1, h2, h3, p{
   color: white;
 }
@@ -57,7 +60,7 @@ text-decoration:none;
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url(/images/orlandosunset.jpg)
+  /*background-image: url(/images/orlandosunset.jpg)*/
 }
 
 /* Custom container */
